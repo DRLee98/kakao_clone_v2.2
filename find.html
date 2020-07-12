@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+			integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Find | Kakao Clone</title>
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span class="status-bar__clock">11:51</span>
+			</div>
+			<div class="status-bar__column">
+				<i class="fas fa-clock"></i>
+				<i class="fas fa-volume-mute"></i>
+				<i class="fas fa-wifi"></i>
+				<i class="fas fa-signal"></i>
+				<span class="status-bar__battery-level">70%</span>
+				<i class="fas fa-battery-three-quarters"></i>
+			</div>
+		</div>
+		<header class="header">
+			<div class="header__header-column">
+				<h1 class="header-title">Find</h1>
+			</div>
+			<div class="header__header-column">
+				<i class="fas fa-search"></i>
+				<i class="fas fa-cog"></i>
+			</div>
+		</header>
+		<main class="find">
+			<header class="find__header">
+				<ul class="find__header-list">
+					<li class="find__header-btn header-btn">
+						<span class="header-btn__icon">
+							<i class="fas fa-qrcode"></i>
+						</span>
+						<span class="header-btn__title">
+							QR Code
+						</span>
+					</li>
+					<li class="find__header-btn header-btn">
+						<span class="header-btn__icon">
+							<i class="far fa-address-book"></i>
+						</span>
+						<span class="header-btn__title">
+							Add by Contacts
+						</span>
+					</li>
+					<li class="find__header-btn header-btn">
+						<span class="header-btn__icon">
+							<i class="fas fa-fingerprint"></i>
+						</span>
+						<span class="header-btn__title">
+							Add by ID
+						</span>
+					</li>
+					<li class="find__header-btn header-btn">
+						<span class="header-btn__icon">
+							<i class="far fa-envelope"></i>
+						</span>
+						<span class="header-btn__title">
+							Invite
+						</span>
+					</li>
+				</ul>
+			</header>
+			<ul class="find__recommended">
+				<h5 class="find__title">
+					Recommended Friends
+				</h5>
+				<li class="find__friend friend">
+					<div class="friend__column">
+						<img src="" class="friend__avatar" />
+						<div class="friend__content">
+							<span class="friend__name"></span>
+						</div>
+					</div>
+					<div class="friend__column">
+						<div class="friend__add-btn">
+							<i class="fas fa-user-plus"></i>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</main>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__list-item">
+					<a href="friends.html" class="nav__list-link">
+						<i class="far fa-user"></i>
+					</a>
+				</li>
+				<li class="nav__list-item">
+					<a href="index.html" class="nav__list-link">
+						<div class="nav__badge">N</div>
+						<i class="far fa-comment"></i>
+					</a>
+				</li>
+				<li class="nav__list-item">
+					<a href="find.html" class="nav__list-link">
+						<i class="fas fa-search"></i>
+					</a>
+				</li>
+				<li class="nav__list-item">
+					<a href="more.html" class="nav__list-link">
+						<i class="fas fa-ellipsis-h"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="bigScreen">
+			<span class="bigScreen__text">Please make your screen small!</span>
+		</div>
+	</body>
+</html>
