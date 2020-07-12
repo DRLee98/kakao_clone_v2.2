@@ -9,6 +9,7 @@
 	justify-content: space-between;
 	margin-bottom: 30px;
 	color: #656565;
+	z-index: 1;
 }
 
 .status-bar i {

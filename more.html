@@ -26,110 +26,212 @@
 				<i class="fas fa-battery-three-quarters"></i>
 			</div>
 		</div>
-		<header class="header">
-			<div class="header__header-column">
-				<h1 class="header-title">More</h1>
-			</div>
-			<div class="header__header-column">
-				<span class="header__icon">
-					<i class="fas fa-search"></i>
-				</span>
-				<span class="header__icon">
-					<i class="fas fa-qrcode"></i>
-				</span>
-				<span class="header__icon">
-					<a href="settings.html">
-						<i class="fas fa-cog"></i>
-					</a>
-				</span>
-			</div>
-		</header>
-		<main class="more">
-			<header class="more__header">
-				<div class="more__friend friend">
-					<div class="friend__column">
-						<img src="img/profile-img.jpg" class="g-avatar friend__avatar" />
-						<div class="friend__content">
-							<span class="friend__name">Lee DR</span>
-							<span class="friend__status">dongyeol01@naver.com</span>
+		<div class="screen">
+			<nav class="side-nav">
+				<ul class="side-nav__list top">
+					<li class="nav__list-item select">
+						<a href="friends.html" class="nav__list-link">
+							<i class="fas fa-user"></i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a href="index.html" class="nav__list-link">
+							<div class="nav__badge">N</div>
+							<i class="far fa-comment"></i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a href="more.html" class="nav__list-link">
+							<i class="fas fa-ellipsis-h"></i>
+						</a>
+					</li>
+				</ul>
+				<ul class="side-nav__list bottom">
+					<li class="nav__list-item">
+						<i class="far fa-smile"></i>
+					</li>
+					<li class="nav__list-item">
+						<i class="far fa-bell-slash"></i>
+					</li>
+					<li class="nav__list-item">
+						<a href="settings.html" class="nav__list-link">
+							<i class="fas fa-cog"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="main-screen">
+				<header class="header">
+					<div class="header__header-column">
+						<h1 class="header-title">더보기</h1>
+					</div>
+					<div class="header__header-column">
+						<div class="header__smallScreen">
+							<a href="find.html" class="nav__list-link">
+								<i class="fas fa-search"></i>
+							</a>
+							<i class="fas fa-qrcode"></i>
+							<a href="settings.html" class="nav__list-link">
+								<i class="fas fa-cog"></i>
+							</a>
 						</div>
 					</div>
-					<div class="friend__column">
-						<i class="far fa-comment-alt"></i>
+				</header>
+				<main class="more">
+					<header class="more__header">
+						<div class="more__friend friend">
+							<div class="friend__column">
+								<img
+									src="img/profile-img.jpg"
+									class="g-avatar friend__avatar"
+								/>
+								<div class="friend__content">
+									<span class="friend__name">Lee DR</span>
+									<span class="friend__status">dongyeol01@naver.com</span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<span class="my">MY</span>
+							</div>
+						</div>
+					</header>
+					<div class="more__pay-menu">
+						<div class="pay__column left">
+							<i class="fas fa-comment"></i>
+							<strong class="pay-title">pay</strong>
+							<span class="pay__money">10,000원</span>
+						</div>
+						<div class="pay__column right">
+							<span>송금</span>
+							<span>결제</span>
+							<span>자산</span>
+						</div>
 					</div>
-				</div>
-				<ul class="more__btn-list">
-					<li class="more__btn">
-						<span class="more__btn-icon">
-							<i class="far fa-smile-wink"></i>
-						</span>
-						<span class="more__btn-title">Emoticons</span>
-					</li>
-					<li class="more__btn">
-						<span class="more__btn-icon">
-							<i class="fas fa-brush"></i>
-						</span>
-						<span class="more__btn-title">Themes</span>
-					</li>
-					<li class="more__btn">
-						<span class="more__btn-icon">
-							<i class="fab fa-kickstarter"></i>
-						</span>
-						<span class="more__btn-title">Account</span>
-					</li>
-				</ul>
-			</header>
-			<section class="more__suggestions">
-				<h5 class="more__title">suggestions</h5>
-				<ul class="more__suggestions-list">
-					<li class="more__suggestion suggestion">
-						<span class="suggestion__icon">
-							<i class="fas fa-quote-right"></i>
-						</span>
-						<span class="suggestion__title">Kakao Story</span>
-					</li>
-					<li class="more__suggestion suggestion">
-						<span class="suggestion__icon">
-							<i class="fas fa-paw"></i>
-						</span>
-						<span class="suggestion__title">Kakao friends</span>
-					</li>
-					<li class="more__suggestion suggestion">
-						<span class="suggestion__icon">
-							<i class="fas fa-chess-knight"></i>
-						</span>
-						<span class="suggestion__title">Friends Gem</span>
-					</li>
-				</ul>
-			</section>
-		</main>
-		<nav class="nav">
-			<ul class="nav__list">
-				<li class="nav__list-item">
-					<a href="friends.html" class="nav__list-link">
-						<i class="far fa-user"></i>
-					</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="index.html" class="nav__list-link">
-						<div class="nav__badge">N</div>
-						<i class="far fa-comment"></i>
-					</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="find.html" class="nav__list-link">
-						<i class="fas fa-search"></i>
-					</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="more.html" class="nav__list-link">
-						<i class="fas fa-ellipsis-h"></i>
-					</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="bigScreen">
-			<span class="bigScreen__text">Please make your screen small!</span>
+					<ul class="more__btn-list">
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="far fa-envelope"></i>
+							</span>
+							<span class="more__btn-title">메일</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="far fa-calendar-check"></i>
+							</span>
+							<span class="more__btn-title">캘린더</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-archive"></i>
+							</span>
+							<span class="more__btn-title">서랍</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fab fa-monero"></i>
+							</span>
+							<span class="more__btn-title">메이커스</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-gift"></i>
+							</span>
+							<span class="more__btn-title">선물하기</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="far fa-smile"></i>
+							</span>
+							<span class="more__btn-title">이모티콘</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-paw"></i>
+							</span>
+							<span class="more__btn-title">프렌즈샵</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-shopping-cart"></i>
+							</span>
+							<span class="more__btn-title">쇼핑하기</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-hat-cowboy-side"></i>
+							</span>
+							<span class="more__btn-title">스타일</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-utensils"></i>
+							</span>
+							<span class="more__btn-title">주문하기</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-ticket-alt"></i>
+							</span>
+							<span class="more__btn-title">티켓</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-gamepad"></i>
+							</span>
+							<span class="more__btn-title">게임</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="far fa-sticky-note"></i>
+							</span>
+							<span class="more__btn-title">페이지</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-music"></i>
+							</span>
+							<span class="more__btn-title">뮤직</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-cut"></i>
+							</span>
+							<span class="more__btn-title">헤어샵</span>
+						</li>
+						<li class="more__btn">
+							<span class="more__btn-icon">
+								<i class="fas fa-th-large"></i>
+							</span>
+							<span class="more__btn-title">전체서비스</span>
+						</li>
+					</ul>
+				</main>
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__list-item">
+							<a href="friends.html" class="nav__list-link">
+								<i class="far fa-user"></i>
+							</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="index.html" class="nav__list-link">
+								<div class="nav__badge">N</div>
+								<i class="far fa-comment"></i>
+							</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="find.html" class="nav__list-link">
+								<i class="fas fa-search"></i>
+							</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="more.html" class="nav__list-link">
+								<i class="fas fa-ellipsis-h"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</body>
 </html>

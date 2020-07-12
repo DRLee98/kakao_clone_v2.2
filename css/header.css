@@ -6,6 +6,7 @@
 	position: sticky;
 	top: 36px;
 	background-color: white;
+	z-index: 1;
 }
 
 .header .header-title {

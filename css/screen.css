@@ -1,0 +1,9 @@
+.screen {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.main-screen {
+	width: 100%;
+	margin-left: 80px;
+}

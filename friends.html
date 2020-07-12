@@ -26,92 +26,191 @@
 				<i class="fas fa-battery-three-quarters"></i>
 			</div>
 		</div>
-		<header class="header">
-			<div class="header__header-column">
-				<h1 class="header-title">Friends</h1>
+		<div class="screen">
+			<nav class="side-nav">
+				<ul class="side-nav__list top">
+					<li class="nav__list-item select">
+						<a href="friends.html" class="nav__list-link">
+							<i class="fas fa-user"></i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a href="index.html" class="nav__list-link">
+							<div class="nav__badge">N</div>
+							<i class="far fa-comment"></i>
+						</a>
+					</li>
+					<li class="nav__list-item">
+						<a href="more.html" class="nav__list-link">
+							<i class="fas fa-ellipsis-h"></i>
+						</a>
+					</li>
+				</ul>
+				<ul class="side-nav__list bottom">
+					<li class="nav__list-item">
+						<i class="far fa-smile"></i>
+					</li>
+					<li class="nav__list-item">
+						<i class="far fa-bell-slash"></i>
+					</li>
+					<li class="nav__list-item">
+						<a href="settings.html" class="nav__list-link">
+							<i class="fas fa-cog"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="main-screen">
+				<header class="header">
+					<div class="header__header-column">
+						<h1 class="header-title">친구</h1>
+					</div>
+					<div class="header__header-column">
+						<div class="header__bigScreen">
+							<i class="fas fa-user-plus"></i>
+						</div>
+						<div class="header__smallScreen">
+							<a href="find.html" class="nav__list-link">
+								<i class="fas fa-search"></i>
+							</a>
+							<i class="fas fa-user-plus"></i>
+							<a href="settings.html" class="nav__list-link">
+								<i class="fas fa-cog"></i>
+							</a>
+						</div>
+					</div>
+				</header>
+				<main class="friends">
+					<div class="search-bar">
+						<input type="text" class="search-input" placeholder="이름 검색" />
+						<div class="search-icon">
+							<i class="fas fa-search"></i>
+						</div>
+					</div>
+					<header class="friends__header">
+						<div class="friends__friend friend">
+							<div class="friend__column">
+								<img
+									src="img/profile-img.jpg"
+									class="g-avatar friend__avatar"
+								/>
+								<div class="friend__content">
+									<span class="friend__name">Lee DR</span>
+									<span class="friend__status">Happy!</span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<div class="friend__now-listening">
+									<span>Christopher - Bad</span>
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+						</div>
+					</header>
+					<div class="friends__plus">
+						<h5 class="friends__title">플러스 친구</h5>
+						<div class="friends__friend friend">
+							<div class="friend__column">
+								<img src="img/plus.jpg" class="friend__avatar" />
+								<div class="friend__content">
+									<span class="friend__name">플친</span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<div class="friend__content">
+									<span class="friend__more">
+										1
+										<i class="fas fa-chevron-right"></i>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul class="friends__list">
+						<h5 class="friends__title">친구</h5>
+						<li class="friends__friend friend">
+							<div class="friend__column">
+								<img src="img/ksh.jpg" class="friend__avatar" />
+								<div class="friend__content">
+									<span class="friend__name">김소현</span>
+									<span class="friend__status">몽숙이~</span>
+								</div>
+							</div>
+							<div class="friend__column"></div>
+						</li>
+						<li class="friends__friend friend">
+							<div class="friend__column">
+								<img src="img/solar.jpg" class="friend__avatar" />
+								<div class="friend__content">
+									<span class="friend__name">김용선</span>
+									<span class="friend__status">레고!</span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<div class="friend__now-listening">
+									<span>솔라 - 뱉어</span>
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+						</li>
+						<li class="friends__friend friend">
+							<div class="friend__column">
+								<img src="" class="friend__avatar" />
+								<div class="friend__content">
+									<span class="friend__name"></span>
+									<span class="friend__status"></span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<div class="friend__now-listening">
+									<span></span>
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+						</li>
+						<li class="friends__friend friend">
+							<div class="friend__column">
+								<img src="" class="friend__avatar" />
+								<div class="friend__content">
+									<span class="friend__name"></span>
+									<span class="friend__status"></span>
+								</div>
+							</div>
+							<div class="friend__column">
+								<div class="friend__now-listening">
+									<span></span>
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</main>
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__list-item">
+							<a href="friends.html" class="nav__list-link">
+								<i class="fas fa-user"></i>
+							</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="index.html" class="nav__list-link">
+								<div class="nav__badge">N</div>
+								<i class="far fa-comment"></i>
+							</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="find.html" class="nav__list-link">
+								<i class="fas fa-search"></i>
+							</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="more.html" class="nav__list-link">
+								<i class="fas fa-ellipsis-h"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
-			<div class="header__header-column">
-				<i class="fas fa-search"></i>
-				<i class="fas fa-cog"></i>
-			</div>
-		</header>
-		<main class="friends">
-			<header class="friends__header">
-				<div class="friends__friend friend">
-					<div class="friend__column">
-						<img src="img/profile-img.jpg" class="g-avatar friend__avatar" />
-						<div class="friend__content">
-							<span class="friend__name">Lee DR</span>
-							<span class="friend__status">Happy!</span>
-						</div>
-					</div>
-					<div class="friend__column">
-						<div class="friend__now-listening">
-							<span>Christopher - Bad</span>
-							<i class="fas fa-play"></i>
-						</div>
-					</div>
-				</div>
-			</header>
-			<div class="friends__plus">
-				<h5 class="friends__title">Plus Friend</h5>
-				<div class="friends__friend friend">
-					<div class="friend__column">
-						<img src="" class="friend__avatar" />
-						<div class="friend__content">
-							<span class="friend__name"></span>
-							<span class="friend__status"></span>
-						</div>
-					</div>
-					<div class="friend__column"></div>
-				</div>
-			</div>
-			<ul class="friends__list">
-				<h5 class="friends__title">Plus Friend</h5>
-				<li class="friends__friend friend">
-					<div class="friend__column">
-						<img src="" class="friend__avatar" />
-						<div class="friend__content">
-							<span class="friend__name"></span>
-							<span class="friend__status"></span>
-						</div>
-					</div>
-					<div class="friend__column">
-						<div class="friend__now-listening">
-							<span>가수 - 제목</span>
-							<i class="fas fa-play"></i>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</main>
-		<nav class="nav">
-			<ul class="nav__list">
-				<li class="nav__list-item">
-					<a href="friends.html" class="nav__list-link">
-						<i class="fas fa-user"></i>
-					</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="index.html" class="nav__list-link">
-						<div class="nav__badge">N</div>
-						<i class="far fa-comment"></i>
-					</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="find.html" class="nav__list-link">
-						<i class="fas fa-search"></i>
-					</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="more.html" class="nav__list-link">
-						<i class="fas fa-ellipsis-h"></i>
-					</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="bigScreen">
-			<span class="bigScreen__text">Please make your screen small!</span>
 		</div>
 	</body>
 </html>
