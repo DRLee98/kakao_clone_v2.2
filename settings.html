@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="css/styles.css" />
 		<title>Settings | Kakao Clone</title>
 	</head>
-	<body>
+	<body class="mobile">
 		<div class="status-bar">
 			<div class="status-bar__column">
 				<span class="status-bar__clock">11:51</span>
@@ -26,9 +26,47 @@
 				<i class="fas fa-battery-three-quarters"></i>
 			</div>
 		</div>
+    <nav class="side-nav">
+      <ul class="side-nav__list top">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">N</div>
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="issue.html" class="nav__list-link">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="side-nav__list bottom">
+        <li class="nav__list-item">
+          <i class="far fa-smile"></i>
+        </li>
+        <li class="nav__list-item">
+          <i class="far fa-bell-slash"></i>
+        </li>
+        <li class="nav__list-item">
+          <a href="settings.html" class="nav__list-link">
+            <i class="fas fa-cog"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
 		<header class="settings__header header">
 			<a href="more.html" class="header__back-btn">
-				<i class="fas fa-arrow-left"></i>
+				<i class="fas fa-chevron-left"></i>
 			</a>
 			<h1 class="header-title">설정</h1>
 			</div>
@@ -113,33 +151,30 @@
 				</div>
 			</section>
 		</main>
-		<nav class="nav">
-			<ul class="nav__list">
-				<li class="nav__list-item">
-					<a href="friends.html" class="nav__list-link">
-						<i class="far fa-user"></i>
-					</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="index.html" class="nav__list-link">
-						<div class="nav__badge">N</div>
-						<i class="far fa-comment"></i>
-					</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="find.html" class="nav__list-link">
-						<i class="fas fa-search"></i>
-					</a>
-				</li>
-				<li class="nav__list-item">
-					<a href="more.html" class="nav__list-link">
-						<i class="fas fa-ellipsis-h"></i>
-					</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="bigScreen">
-			<span class="bigScreen__text">Please make your screen small!</span>
-		</div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">N</div>
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="issue.html" class="nav__list-link">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
 	</body>
 </html>

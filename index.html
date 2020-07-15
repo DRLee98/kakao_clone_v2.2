@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="css/styles.css" />
 		<title>Chats | Kakao Clone</title>
 	</head>
-	<body>
+	<body class="mobile">
 		<div class="status-bar">
 			<div class="status-bar__column">
 				<span class="status-bar__clock">11:51</span>
@@ -26,113 +26,135 @@
 				<i class="fas fa-battery-three-quarters"></i>
 			</div>
 		</div>
-		<div class="screen">
-			<nav class="side-nav">
-				<ul class="side-nav__list top">
-					<li class="nav__list-item">
-						<a href="friends.html" class="nav__list-link">
-							<i class="fas fa-user"></i>
-						</a>
-					</li>
-					<li class="nav__list-item select">
-						<a href="index.html" class="nav__list-link">
-							<div class="nav__badge">N</div>
-							<i class="far fa-comment"></i>
-						</a>
-					</li>
-					<li class="nav__list-item">
-						<a href="more.html" class="nav__list-link">
-							<i class="fas fa-ellipsis-h"></i>
-						</a>
-					</li>
-				</ul>
-				<ul class="side-nav__list bottom">
-					<li class="nav__list-item">
-						<i class="far fa-smile"></i>
-					</li>
-					<li class="nav__list-item">
-						<i class="far fa-bell-slash"></i>
-					</li>
-					<li class="nav__list-item">
-						<a href="settings.html" class="nav__list-link">
-							<i class="fas fa-cog"></i>
-						</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="main-screen">
-				<header class="header">
-					<div class="header__header-column">
-						<h1 class="header-title">채팅</h1>
-					</div>
-					<div class="header__header-column">
-						<div class="header__bigScreen">
-							<i class="far fa-comments"></i>
-							<i class="far fa-comment"></i>
-						</div>
-						<div class="header__smallScreen">
-							<a href="find.html" class="nav__list-link">
-								<i class="fas fa-search"></i>
-							</a>
-							<i class="far fa-comment"></i>
-							<a href="settings.html" class="nav__list-link">
-								<i class="fas fa-cog"></i>
-							</a>
-						</div>
-					</div>
-				</header>
-				<main class="chats">
-					<div class="search-bar">
-						<input type="text" class="search-input" placeholder="이름 검색" />
-						<div class="search-icon">
-							<i class="fas fa-search"></i>
-						</div>
-					</div>
-					<ul class="chats__list">
-						<li class="chats__chat chat">
-							<a href="chat.html">
-								<div class="chats__chat friend">
-									<div class="friend__column">
-										<img src="" class="m-avatar friend__avatar" />
-										<div class="friend__content">
-											<span class="friend__name"></span>
-											<span class="friend__bottom-text"></span>
-										</div>
-									</div>
-									<div class="friend__column">
-										<span class="chat__timestamp">11:30</span>
-									</div>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</main>
-				<nav class="nav">
-					<ul class="nav__list">
-						<li class="nav__list-item">
-							<a href="friends.html" class="nav__list-link">
-								<i class="far fa-user"></i>
-							</a>
-						</li>
-						<li class="nav__list-item">
-							<a href="index.html" class="nav__list-link">
-								<div class="nav__badge">N</div>
-								<i class="fas fa-comment"></i>
-							</a>
-						</li>
-						<li class="nav__list-item">
-							<a href="find.html" class="nav__list-link">
-								<i class="fas fa-search"></i>
-							</a>
-						</li>
-						<li class="nav__list-item">
-							<a href="more.html" class="nav__list-link">
-								<i class="fas fa-ellipsis-h"></i>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</div>
+    <nav class="side-nav">
+      <ul class="side-nav__list top">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item select">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">N</div>
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="issue.html" class="nav__list-link">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="side-nav__list bottom">
+        <li class="nav__list-item">
+          <i class="far fa-smile"></i>
+        </li>
+        <li class="nav__list-item">
+          <i class="far fa-bell-slash"></i>
+        </li>
+        <li class="nav__list-item">
+          <a href="settings.html" class="nav__list-link">
+            <i class="fas fa-cog"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header-title">채팅</h1>
+      </div>
+      <div class="header__header-column">
+        <div class="header__bigScreen">
+          <i class="far fa-comments"></i>
+          <i class="far fa-comment"></i>
+        </div>
+        <div class="header__smallScreen">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+          <i class="far fa-comment"></i>
+          <a href="settings.html" class="nav__list-link">
+            <i class="fas fa-cog"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="chats">
+      <div class="search-bar">
+        <input type="text" class="search-input" placeholder="이름 검색" />
+        <div class="search-icon">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+      <ul class="chats__list">
+        <li class="chats__chat chat">
+          <a href="chat.html">
+            <div class="chats__chat friend">
+              <div class="friend__column">
+                <img src="img/friend.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">친구</span>
+                  <span class="friend__bottom-text">ㅇㅋ</span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">11:46</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="chats__chat chat">
+          <a href="we_chat.html">
+            <div class="chats__chat friend">
+              <div class="friend__column">
+                <div class="chats-imgs">
+                  <img src="img/friend.jpg" class="s-avatar friend__avatar" />
+                  <img src="img/basic.jpg" class="s-avatar friend__avatar" />
+                  <img src="img/fr.jpg" class="s-avatar friend__avatar" />
+                  <img src="img/fr2.png" class="s-avatar friend__avatar" />
+                </div>
+                <div class="friend__content">
+                  <span class="friend__name">고등학교 친구들</span>
+                  <span class="friend__bottom-text">토요일 7시까지 홍대로 ㄱㄱ</span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">11:51</span>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">N</div>
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="issue.html" class="nav__list-link">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
 	</body>
 </html>

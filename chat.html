@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="css/styles.css" />
 		<title>Chat | Kakao Clone</title>
 	</head>
-	<body class="chats-body">
+	<body class="chats-body mobile">
 		<div class="status-bar">
 			<div class="status-bar__column">
 				<span class="status-bar__clock">11:51</span>
@@ -31,7 +31,7 @@
 				<a href="index.html" class="header__back-btn">
 					<i class="fas fa-arrow-left"></i>
 				</a>
-				<h1 class="header-title">Best Friend</h1>
+				<h1 class="header-title">친구</h1>
 			</div>
 			<div class="header__header-column">
 				<span class="header__icon">
@@ -48,17 +48,57 @@
 					2020년 7월 6일 월요일
 				</span>
 				<li class="incoming-message message">
-					<img src="" class="m-avatar message__avatar" />
+          <a href="profile/profileFR_chat.html">
+					  <img src="img/friend.jpg" class="m-avatar message__avatar" />
+          </a>
 					<div class="message__content">
-						<span class="message__author">Best Friend</span>
-						<div class="message__bubble">Hello!</div>
+						<span class="message__author">친구</span>
+						<div class="message__bubble">뭐해?</div>
 					</div>
 					<span class="message__timestamp">10:43</span>
 				</li>
 				<li class="sent-message message">
 					<span class="message__timestamp">10:43</span>
 					<div class="message__content">
-						<div class="message__bubble">Hello!</div>
+						<div class="message__bubble">그냥 있지</div>
+					</div>
+				</li>
+				<li class="incoming-message message">
+          <a href="profile/profileFR_chat.html">
+					  <img src="img/friend.jpg" class="m-avatar message__avatar" />
+          </a>
+					<div class="message__content">
+						<span class="message__author">친구</span>
+						<div class="message__bubble">간만에</div>
+					</div>
+					<span class="message__timestamp">10:44</span>
+				</li>
+				<li class="incoming-message message chain">
+					<div class="message__content">
+						<div class="message__bubble">주말에 운동ㄱ?</div>
+					</div>
+					<span class="message__timestamp">10:44</span>
+				</li>
+				<li class="sent-message message">
+					<span class="message__timestamp">10:45</span>
+					<div class="message__content">
+						<div class="message__bubble">그래</div>
+					</div>
+				</li>
+				<li class="incoming-message message">
+          <a href="profile/profileFR_chat.html">
+					  <img src="img/friend.jpg" class="m-avatar message__avatar" />
+          </a>
+					<div class="message__content">
+						<span class="message__author">친구</span>
+						<div class="message__bubble">그럼 주말에 보자</div>
+					</div>
+					<span class="message__timestamp">10:46</span>
+				</li>
+				<li class="sent-message message">
+					<span class="message__timestamp">10:46</span>
+					<div class="message__content">
+						<div class="message__bubble">ㅇㅋ</div>
 					</div>
 				</li>
 			</ul>
@@ -142,9 +182,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="bigScreen">
-			<span class="bigScreen__text">Please make your screen small!</span>
 		</div>
 	</body>
 </html>

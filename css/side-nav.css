@@ -15,7 +15,6 @@
 }
 
 .side-nav__list {
-	height: 25%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -25,6 +24,19 @@
 
 .side-nav__list.top {
 	color: gray;
+  height: 30%;
+}
+
+.side-nav__list.bottom{
+  height: 20%;
+}
+
+.bottom .nav__list-item{
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav__list-item.select {
@@ -34,4 +46,17 @@
 .side-nav__list .nav__badge {
 	top: -2px;
 	right: -6px;
+}
+
+.top .nav__list-item:hover{
+  color: rgb(160, 160, 160);
+}
+
+.nav__list-item.select:hover{
+	color: rgb(50, 50, 50);
+}
+
+.bottom .nav__list-item:hover{
+  background-color: rgb(218, 218, 218);
+  border-radius: 50%;
 }

@@ -10,7 +10,8 @@
 
 .settings__setting .settings__icon {
 	font-size: 20px;
-	margin-right: 20px;
+  width: 50px;
+  display: block;
 }
 
 .settings__setting .settings__title {
@@ -20,6 +21,7 @@
 
 .settings .settings__setting {
 	margin-bottom: 30px;
+  display: flex;
 }
 
 .settings .settings__setting:last-child {

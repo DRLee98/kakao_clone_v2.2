@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+			integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Chat | Kakao Clone</title>
+	</head>
+	<body class="chats-body mobile">
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span class="status-bar__clock">11:51</span>
+			</div>
+			<div class="status-bar__column">
+				<i class="fas fa-clock"></i>
+				<i class="fas fa-volume-mute"></i>
+				<i class="fas fa-wifi"></i>
+				<i class="fas fa-signal"></i>
+				<span class="status-bar__battery-level">70%</span>
+				<i class="fas fa-battery-three-quarters"></i>
+			</div>
+		</div>
+		<header class="header">
+			<div class="header__header-column">
+				<a href="index.html" class="header__back-btn">
+					<i class="fas fa-arrow-left"></i>
+				</a>
+				<h1 class="header-title">고등학교 친구들</h1>
+			</div>
+			<div class="header__header-column">
+				<span class="header__icon">
+					<i class="fas fa-search"></i>
+				</span>
+				<span class="header__icon">
+					<i class="fas fa-bars"></i>
+				</span>
+			</div>
+		</header>
+		<main class="chat-screen">
+			<ul class="chat__messages we">
+				<span class="chat__timestamp">
+					2020년 7월 6일 월요일
+				</span>
+				<li class="incoming-message message">
+          <a href="profile/profileFR2_we_chat.html">
+					  <img src="img/fr.jpg" class="m-avatar message__avatar" />
+          </a>
+					<div class="message__content">
+						<span class="message__author">운동하는 친구</span>
+						<div class="message__bubble">애들아 요즘 뭐해?</div>
+					</div>
+					<span class="message__timestamp">10:42</span>
+				</li>
+				<li class="incoming-message message chain">
+					<div class="message__content">
+						<div class="message__bubble">주말에 바쁜사람 없지?</div>
+					</div>
+					<span class="message__timestamp">10:42</span>
+				</li>
+				<li class="incoming-message message chain">
+					<div class="message__content">
+						<div class="message__bubble">오랜만에 한번 만나서 술 한잔해야지</div>
+					</div>
+					<span class="message__timestamp">10:43</span>
+				</li>
+				<li class="sent-message message">
+					<span class="message__timestamp">10:46</span>
+					<div class="message__content">
+						<div class="message__bubble">난 주말 ㄱㅊ</div>
+					</div>
+				</li>
+				<li class="incoming-message message">
+          <a href="profile/profileFR3_we_chat.html">
+					  <img src="img/fr2.png" class="m-avatar message__avatar" />
+          </a>
+					<div class="message__content">
+						<span class="message__author">게으른 친구</span>
+						<div class="message__bubble">주말 귀찮은데</div>
+					</div>
+					<span class="message__timestamp">10:48</span>
+				</li>
+				<li class="incoming-message message">
+          <a href="profile/profileFR_we_chat.html">
+					  <img src="img/friend.jpg" class="m-avatar message__avatar" />
+          </a>
+					<div class="message__content">
+						<span class="message__author">친구</span>
+						<div class="message__bubble">주말 저녁쯤이면 상관없어</div>
+					</div>
+					<span class="message__timestamp">10:49</span>
+				</li>
+				<li class="incoming-message message">
+          <a href="profile/profileFR2_we_chat.html">
+					  <img src="img/fr.jpg" class="m-avatar message__avatar" />
+          </a>
+					<div class="message__content">
+						<span class="message__author">운동하는 친구</span>
+						<div class="message__bubble">그럼 주말에 다 오는 걸로 알고있는다</div>
+					</div>
+					<span class="message__timestamp">10:50</span>
+				</li>
+				<li class="sent-message message">
+					<span class="message__timestamp">10:50</span>
+					<div class="message__content">
+						<div class="message__bubble">몇시에 어디서 볼거?</div>
+					</div>
+				</li>
+				<li class="incoming-message message">
+          <a href="profile/profileFR2_we_chat.html">
+					  <img src="img/fr.jpg" class="m-avatar message__avatar" />
+          </a>
+					<div class="message__content">
+						<span class="message__author">운동하는 친구</span>
+						<div class="message__bubble">토요일 7시까지 홍대로 ㄱㄱ</div>
+					</div>
+					<span class="message__timestamp">10:51</span>
+				</li>
+			</ul>
+		</main>
+		<div class="chat__write-box">
+			<div class="chat__write">
+				<div class="chat__write-icon">
+					<i class="far fa-plus-square"></i>
+				</div>
+				<div class="chat__write-column">
+					<input
+						type="text"
+						placeholder="Send message"
+						class="chat__write-input"
+					/>
+					<div class="chat__write-icons">
+						<span class="chat__write-icon">
+							<i class="far fa-smile"></i>
+						</span>
+						<span class="chat__write-icon">
+							<i class="fas fa-hashtag"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="chat__keyboard keyboard">
+				<div class="keyboard__column">
+					<div class="letter">ㅂ</div>
+					<div class="letter">ㅈ</div>
+					<div class="letter">ㄷ</div>
+					<div class="letter">ㄱ</div>
+					<div class="letter">ㅅ</div>
+					<div class="letter">ㅛ</div>
+					<div class="letter">ㅕ</div>
+					<div class="letter">ㅑ</div>
+					<div class="letter">ㅐ</div>
+					<div class="letter">ㅔ</div>
+				</div>
+				<div class="keyboard__column">
+					<div class="letter">ㅁ</div>
+					<div class="letter">ㄴ</div>
+					<div class="letter">ㅇ</div>
+					<div class="letter">ㄹ</div>
+					<div class="letter">ㅎ</div>
+					<div class="letter">ㅗ</div>
+					<div class="letter">ㅓ</div>
+					<div class="letter">ㅏ</div>
+					<div class="letter">ㅣ</div>
+				</div>
+				<div class="keyboard__column">
+					<div class="func left">
+						<i class="fas fa-arrow-alt-circle-up"></i>
+					</div>
+					<div class="letter">ㅋ</div>
+					<div class="letter">ㅌ</div>
+					<div class="letter">ㅊ</div>
+					<div class="letter">ㅍ</div>
+					<div class="letter">ㅠ</div>
+					<div class="letter">ㅜ</div>
+					<div class="letter">ㅡ</div>
+					<div class="func right">
+						<i class="fas fa-backspace"></i>
+					</div>
+				</div>
+				<div class="keyboard__column">
+					<div class="func num">123</div>
+					<div class="func">
+						<i class="far fa-grin"></i>
+					</div>
+					<div class="space-bar"></div>
+					<div class="func enter">
+						<i class="fas fa-level-down-alt"></i>
+					</div>
+				</div>
+				<div class="keyboard__column">
+					<div class="lang">
+						<i class="fas fa-globe"></i>
+					</div>
+					<div class="mic">
+						<i class="fas fa-microphone"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

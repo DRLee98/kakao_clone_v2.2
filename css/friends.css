@@ -6,13 +6,22 @@
 	border-color: #f7f7f7;
 }
 
-.friends__plus .friends__title,
-.friends__list .friends__title {
+.friends__column {
+  display: flex;
+  justify-content: space-between;
 	font-size: 14px;
 	opacity: 0.6;
-	margin-bottom: 10px;
+	margin: 5px 20px;
 }
 
-.friends__friend {
-	margin-bottom: 15px;
+.friends__icon{
+  color: gray;
+}
+
+.friends__friend.friend{
+  padding: 10px 20px;
+}
+
+.friends__friend.friend:hover{
+  background-color: #efefef;
 }

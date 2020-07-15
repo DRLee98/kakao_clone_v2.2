@@ -1,15 +1,40 @@
 .chats-body {
 	padding: 0;
+  margin: 0;
 }
 
 .chats-body .header {
 	padding: 30px 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.chats-body .header__header-column{
+  opacity: 1;
+}
+
+.chats__chat.chat{
+  padding: 10px 20px;
+}
+
+.chats__chat:hover{
+  background-color: #efefef
+}
+
+.chats-imgs{
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .chat-screen {
-	margin-top: 36px;
-	background-color: wheat;
-	min-height: 100vh;
+	padding-top: 95px;
+	background-image: url("../img/chat-bg.png");
+	min-height: 90vh;
 }
 
 .chat__write-box {
@@ -95,16 +120,21 @@
 
 .incoming-message {
 	align-self: flex-start;
-	animation: incomingAnim 0.5s ease-in-out forwards;
+  transform: translateX(-200%);
+}
+
+.incoming-message.chain{
+  margin-left: 55px;
 }
 
 .sent-message {
 	align-self: flex-end;
-	animation: sentAnim 0.5s ease-in-out forwards;
+  transform: translateX(200%);
 }
 
 .incoming-message img {
-	width: 30px;
+	width: 40px;
+  height: 40px;
 	border-radius: 15px;
 	margin-right: 15px;
 }
@@ -141,9 +171,74 @@
 	align-self: flex-end;
 }
 
+.chat__messages li:nth-child(2) {
+	animation: incomingAnim 0.8s ease-in-out forwards 0.5s;
+}
+
+.chat__messages li:nth-child(3) {
+	animation: sentAnim 0.8s ease-in-out forwards 1.3s;
+}
+
+.chat__messages li:nth-child(4) {
+	animation: incomingAnim 0.8s ease-in-out forwards 2s;
+}
+
+.chat__messages li:nth-child(5) {
+	animation: incomingAnim 0.8s ease-in-out forwards 2.4s;
+}
+
+.chat__messages li:nth-child(6) {
+	animation: sentAnim 0.8s ease-in-out forwards 3.2s;
+}
+
+.chat__messages li:nth-child(7) {
+	animation: incomingAnim 0.8s ease-in-out forwards 4s;
+}
+
+.chat__messages li:nth-child(8) {
+	animation: sentAnim 0.8s ease-in-out forwards 4.4s;
+}
+
+.we.chat__messages li:nth-child(2){
+	animation: incomingAnim 0.8s ease-in-out forwards 0.5s;
+}
+
+.we.chat__messages li:nth-child(3){
+	animation: incomingAnim 0.8s ease-in-out forwards 1s;
+}
+
+.we.chat__messages li:nth-child(4){
+	animation: incomingAnim 0.8s ease-in-out forwards 1.4s;
+}
+
+.we.chat__messages li:nth-child(5) {
+	animation: sentAnim 0.8s ease-in-out forwards 2.4s;
+}
+
+.we.chat__messages li:nth-child(6){
+	animation: incomingAnim 0.8s ease-in-out forwards 3s;
+}
+
+.we.chat__messages li:nth-child(7){
+	animation: incomingAnim 0.8s ease-in-out forwards 3.8s;
+}
+
+.we.chat__messages li:nth-child(8){
+	animation: incomingAnim 0.8s ease-in-out forwards 4.4s;
+}
+
+.we.chat__messages li:nth-child(9) {
+	animation: sentAnim 0.8s ease-in-out forwards 5s;
+}
+
+.we.chat__messages li:nth-child(10){
+	animation: incomingAnim 0.8s ease-in-out forwards 6s;
+}
+
+
 @keyframes incomingAnim {
 	from {
-		transform: translateX(-200px);
+		transform: translateX(-200%);
 	}
 	to {
 		transform: none;
@@ -153,7 +248,7 @@
 @keyframes sentAnim {
 	from {
 		opacity: 0;
-		transform: translateX(200px);
+		transform: translateX(200%);
 	}
 	to {
 		opacity: 1;

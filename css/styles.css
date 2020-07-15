@@ -5,7 +5,7 @@
 @import 'nav-bar.css';
 @import 'friend.css';
 @import 'friends.css';
-@import 'find.css';
+@import 'issue.css';
 @import 'more.css';
 @import 'settings.css';
 @import 'chat.css';
@@ -14,25 +14,35 @@
 @import 'screen.css';
 @import 'side-nav.css';
 @import 'search-bar.css';
+@import 'profile.css';
 
 * {
 	box-sizing: border-box;
+}
+
+html{
+  height: 100%;
 }
 
 body {
 	background-color: white;
 	color: #020202;
 	font-family: 'Open Sans', sans-serif;
+  margin-left: 80px;
 }
 
 main {
-	margin-top: 36px;
-	padding: 10px 20px;
+  margin-bottom: 60px;
+	padding: 10px 0px;
 }
 
 a {
 	color: inherit;
 	text-decoration: none;
+}
+
+i{
+  cursor: pointer;
 }
 
 @keyframes fadeIn {
