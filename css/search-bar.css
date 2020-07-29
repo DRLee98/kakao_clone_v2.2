@@ -1,5 +1,6 @@
 .search-bar {
 	position: relative;
+	margin: 0 20px 30px 20px;
 }
 
 .search-input {
@@ -8,7 +9,6 @@
 	border-radius: 25px;
 	background-color: rgb(240, 240, 240);
 	padding: 10px 40px;
-	margin-bottom: 30px;
 }
 
 .search-icon {

@@ -20,20 +20,19 @@
 	box-sizing: border-box;
 }
 
-html{
-  height: 100%;
+html {
+	height: 100%;
 }
 
 body {
 	background-color: white;
 	color: #020202;
 	font-family: 'Open Sans', sans-serif;
-  margin-left: 80px;
+	margin-left: 80px;
 }
 
 main {
-  margin-bottom: 60px;
-	padding: 10px 0px;
+	margin-bottom: 60px;
 }
 
 a {
@@ -41,8 +40,8 @@ a {
 	text-decoration: none;
 }
 
-i{
-  cursor: pointer;
+i {
+	cursor: pointer;
 }
 
 @keyframes fadeIn {
